@@ -18,7 +18,7 @@ fbq('init', '${META_PIXEL_ID}');`;
     <>
       <Script
         id="meta-pixel-base"
-        strategy="afterInteractive"
+        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{ __html: baseCode }}
       />
     </>
