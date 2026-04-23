@@ -1,0 +1,23 @@
+.bar {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  background: #0a0c11;
+  padding: 40px 16px;
+}
+
+.row {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px 26px;
+  text-align: center;
+}
+
+.row span {
+  color: rgba(255, 255, 255, 0.3);
+  letter-spacing: 0.26em;
+  font-size: 0.84rem;
+  font-weight: 600;
+}

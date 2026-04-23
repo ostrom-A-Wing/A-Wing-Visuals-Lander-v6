@@ -1,0 +1,42 @@
+.main {
+  padding: 92px 16px 40px;
+}
+
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.backLink {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  color: #c8c9ce;
+}
+
+.wrap h1 {
+  margin-top: 10px;
+  font-family: var(--font-display), Impact, sans-serif;
+  font-size: clamp(2.2rem, 6vw, 3.4rem);
+  letter-spacing: 0.02em;
+}
+
+.wrap p {
+  margin-top: 8px;
+  margin-bottom: 22px;
+  color: var(--text-muted);
+  max-width: 70ch;
+}
+
+.redirectHint {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #b7bac2;
+  font-size: 0.92rem;
+}
+
+.thankYouLink {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

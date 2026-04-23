@@ -1,0 +1,35 @@
+.footer {
+  padding: 36px 16px 44px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  background: #07080b;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+  text-align: center;
+}
+
+.phone {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.websiteLink {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  color: #d2d4da;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.inner p {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
