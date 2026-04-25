@@ -4,7 +4,7 @@ import styles from "./SurveyCard.module.css";
 export default function SurveyCard() {
   return (
     <section className={styles.card}>
-      <h2 className={styles.title}>See If You Qualify</h2>
+      <h2 className={styles.title}>Book your Call!</h2>
       <p className={styles.subtitle}>Takes 30 seconds · Free strategy call</p>
       <iframe
         src="https://api.leadconnectorhq.com/widget/survey/Co1FD4QUJvXu0t92rqtZ"
