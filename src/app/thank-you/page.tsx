@@ -2,6 +2,7 @@ import Link from "next/link";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import styles from "./page.module.css";
+import { ScheduleEvent } from "./ScheduleEvent";
 
 export default function ThankYouPage() {
   return (
