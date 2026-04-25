@@ -7,6 +7,7 @@ import { ScheduleEvent } from "./ScheduleEvent";
 export default function ThankYouPage() {
   return (
     <>
+      <ScheduleEvent />
       <Navbar />
       <main className={styles.main}>
         <section className={styles.card}>
